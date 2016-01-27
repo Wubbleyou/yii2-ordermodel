@@ -22,7 +22,7 @@ use Yii;
  *      'url' => ['action_name', 'optionalparams'...]
  * ],
  *
- * Class OrderBehavior
+ * Class OrderModelColumn
  * @package wubbleyou\ordermodel
  */
 class OrderModelColumn extends DataColumn

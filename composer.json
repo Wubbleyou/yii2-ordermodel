@@ -12,5 +12,10 @@
             "name": "Wubbleyou Ltd",
             "email": "package@wubbleyou.co.uk"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "wubbleyou\\ordermodel\\": ""
+        }
+    }
 }
