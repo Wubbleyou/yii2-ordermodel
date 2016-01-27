@@ -4,7 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension","gridview"],
     "require": {
-        "yiisoft/yii2": "^2.0"
+        "yiisoft/yii2": "*"
     },
     "license": "BSD-2-Clause",
     "authors": [
