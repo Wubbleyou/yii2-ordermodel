@@ -77,7 +77,7 @@ class OrderBehavior extends AttributeBehavior
      */
     public function afterDelete($event){
 
-        $where = ['and', ['>', 'order', $this->owner->{$this->sortField}]];
+        $where = ['and', ['>', $this->sortField, $this->owner->{$this->sortField}]];
 
         if(!empty($this->restrictBy)){
 
@@ -221,7 +221,7 @@ class OrderBehavior extends AttributeBehavior
         else if ($direction === self::DIRECTION_DOWN && $order < $highestOrder)
             $order += 1;
 
-        $oldModel = $this->getSearchModel()->andWhere(['order' => $order])->one();
+        $oldModel = $this->getSearchModel()->andWhere([$this->sortField => $order])->one();
 
         if($oldModel){
 
