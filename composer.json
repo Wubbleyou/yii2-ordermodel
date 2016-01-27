@@ -1,0 +1,16 @@
+{
+    "name": "wubbleyou/yii2-ordermodel",
+    "description": "Allows users to order records in a grid view via a custom column",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","gridview"],
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Wubbleyou Ltd",
+            "email": "package@wubbleyou.co.uk"
+        }
+    ]
+}
